@@ -2,7 +2,7 @@ package com.example.demo.Api;
 
 import com.example.demo.Api.Model.Train;
 import com.example.demo.Api.Response.ApiResponse;
-import com.example.demo.Api.Service.TrainController;
+import com.example.demo.Api.Controller.TrainController;
 import org.springframework.boot.configurationprocessor.json.JSONArray;
 import org.springframework.boot.configurationprocessor.json.JSONException;
 import org.springframework.boot.configurationprocessor.json.JSONObject;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
-public class CaseApiController {
+public class CaseApiRoute {
 
     @GetMapping
     public String Api(){

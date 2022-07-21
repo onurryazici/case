@@ -1,7 +1,8 @@
-package com.example.demo.Api.Service;
+package com.example.demo.Api.Controller;
 
 import com.example.demo.Api.Model.Train;
 import com.example.demo.Api.Model.Wagon;
+import com.example.demo.Api.Service.ITrainService;
 import lombok.Data;
 import org.springframework.boot.configurationprocessor.json.JSONArray;
 import org.springframework.boot.configurationprocessor.json.JSONException;
