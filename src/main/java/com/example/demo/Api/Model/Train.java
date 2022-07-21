@@ -10,5 +10,4 @@ import java.util.List;
 public class Train {
     private String name;
     private List<Wagon> wagons;
-
 }

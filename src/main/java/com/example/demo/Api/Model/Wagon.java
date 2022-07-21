@@ -14,5 +14,6 @@ public class Wagon {
         if(filledSeat > capacity)
             throw new UnsupportedOperationException();
         this.filledSeat = filledSeat;
+        this.newPersons=0;
     }
 }

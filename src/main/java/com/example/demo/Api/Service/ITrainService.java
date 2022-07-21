@@ -7,10 +7,10 @@ import org.springframework.boot.configurationprocessor.json.JSONException;
 import java.util.List;
 
 public interface ITrainService {
-    void addWagons(JSONArray wagons) throws JSONException;
     List<Wagon> getReservableWagons();
     int getReservableWagonCount();
     void addSingleWagon(Wagon wagon);
+    void addWagons(JSONArray wagons) throws JSONException;
 
     void makeReservation();
 }
